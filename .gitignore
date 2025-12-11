@@ -1,0 +1,38 @@
+# 构建目录（建议源码外构建）
+build/
+build-*/
+build_*/
+cmake-build-*/
+
+# CMake 生成物
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# 构建系统产物
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# 编译产物与二进制
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.dSYM/
+
+# 覆盖率与日志
+*.gcno
+*.gcda
+*.log
