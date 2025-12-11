@@ -36,3 +36,5 @@ Makefile
 *.gcno
 *.gcda
 *.log
+
+.cache/
